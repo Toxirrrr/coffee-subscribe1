@@ -1,0 +1,34 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    cursor: default;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'barlow', 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px , auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul, ol, li, a {
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}

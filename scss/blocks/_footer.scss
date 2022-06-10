@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 170px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: #2C343E;
+        padding: 47px 85px;
+    }
+    
+    &__img {
+    }
+    
+    &__list {
+        margin-right: 200px;
+        display: flex;
+        width: 283px;
+        align-self: end;
+        justify-content: space-between;
+    }
+    
+    &__item {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #83888F;
+    }
+    
+    &__left {
+    }
+    
+    &__left-img {
+    }
+}
+.container {
+}

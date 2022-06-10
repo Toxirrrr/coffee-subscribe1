@@ -1,0 +1,232 @@
+.plan {
+   padding-top: 160px;
+   padding-left: 85px;
+   padding-right: 85px;
+   
+   &__container {
+      
+   }
+   
+   &__wrapper {
+      display: flex;
+      padding-left: 85px;
+      maxw: 1000px;
+   }
+   
+   &__left {
+      margin-right: 125px;
+      
+   }
+   
+   &__l-list {
+      width: 255px;
+   }
+   
+   &__l-item {
+      opacity: 0.6;
+      
+   }
+   
+   &__l-item, &__l-item-link-active {
+      border-bottom: 1px solid rgb(131, 136, 143);
+      width: 255px;
+      padding-bottom: 24px;
+      padding-top: 24px;
+   }
+   
+   .plan__l-item-link-active &__item-header {
+      color: black;
+      opacity: 1;
+   }
+   .plan__l-item-link-active  &__item-span {
+      
+      color: #83888F
+      ;
+      
+   }
+   
+   &__left-link {
+      display: flex;
+      align-items: flex-start;
+   }
+   
+   &__item-span {
+      margin-right: 29px;
+      font-family: 'Fraunces';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      color: #0E8784; 
+   }
+   
+   &__item-header {
+      font-family: 'Fraunces';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      color: #333D4B;
+      
+   }
+   &__item-header:hover {
+      color: black;
+   }
+   
+   
+   &__right {
+      display: flex;
+      flex-direction: column;
+   }
+   
+   &__r-wrapper {
+      display: flex;
+      flex-direction: column;
+   }
+   
+   &__r-top:active + &__form {
+      display: none;
+   }
+   &__r-top:active {
+      opacity: 0.6;
+   }
+   
+   &__r-top {
+   }
+   
+   &__r-list {
+   }
+   
+   &__r-item {
+      margin-top: 24px;
+      margin-bottom: 56px;
+      display: flex;
+      justify-content: space-between;
+   }
+   
+   &__r-item-header {
+      font-family: 'Fraunces';
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: #83888F;
+   }
+   
+   &__item-btn {
+      outline: none;
+      border: none;
+      background-color: #fff;
+   }
+   
+   &__r-item-wrapper {
+      
+   }
+   
+   &__form {
+      display: flex;
+      max-width: 730px;
+      justify-content: space-between;
+      
+   }
+   
+   &__label {
+      margin-right: 40px;  
+   }
+   &__r-wrapper:nth-child(2nd)  .plan__form{
+      display: none;
+      
+   }
+   
+   &__input {
+      display: none;
+   }
+   
+   &__input-span {
+      background-color: #F4F1EB;
+      padding: 32px 28px 84px 28px;
+      align-items: flex-start;
+      display: inline-block;
+      width: 230px;
+      border: none;
+      border-radius: 8px;      
+      
+   }
+   &__input:active +  &__input-span  {
+      opacity: 0.6;   
+   }
+   &__input:hover +  &__input-span  {
+      background-color: #FDD6BA;
+   }
+   &__input:checked +  &__input-span  {
+      background-color: #0E8784;
+   }
+   
+   &__span-header {
+      display: block;
+      padding-bottom: 24px;
+      font-family: 'Fraunces';
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      color: #333D4B;
+   }
+   
+   &__span-text {
+   }
+   
+   &__text-wrapper {
+      background-color: #2C343E;
+      padding: 27px 82px;
+      margin: 0;
+      margin-top: 82px;
+   }
+   
+   &__text-header {
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      opacity: 0.5;
+   }
+   
+   &__text__text {
+      width: 605px;
+      font-family: 'Fraunces';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 40px;
+      color: #FFFFFF;
+      margin: 0;
+   }
+   
+   &__text__text-color {
+      color: #0E8784;
+      
+   }
+   
+   
+   &__btn-wrapper {
+      margin-top: 40px;
+      display: flex;
+      justify-content: flex-end;
+   }
+   
+   &__btn {
+      outline: none;
+      border: none;
+      border-radius: 6px;
+      background-color: #0E8784;
+      padding: 15px 35px 16px 35px;
+      color: #FEFCF7;
+   }
+   &__btn:hover {
+      
+      background-color: #66D2CF;
+   }
+   &__btn:active {
+      background-color: #E2DEDB;
+   }
+   
+}

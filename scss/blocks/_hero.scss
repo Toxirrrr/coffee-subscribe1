@@ -1,0 +1,37 @@
+.hero {
+
+    margin-top: 45px;
+
+    &__container {
+        position: relative;
+        background-image: url(./../../images/hero_bgi.png);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        padding: 134px 709px 134px 85px;
+        border-radius: 10px;
+        background-size: cover;
+    }
+
+    &__header {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        width: 485px;
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        width: 440px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
